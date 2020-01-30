@@ -4,7 +4,8 @@ This is not an officially supported Google product.
 
 Copyright 2019 Google LLC
 
-A detailed overview of the deployment patterns is presented [here].
+A detailed overview of the deployment patterns is presented
+[here](https://cloud.google.com/solutions/implementing-deployment-and-testing-strategies-on-gke).
 
 ## Getting started
 Export environment variables:
