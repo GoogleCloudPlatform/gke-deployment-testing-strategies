@@ -12,14 +12,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-apiVersion: apps/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
+  labels:
+    app: demo-app
   name: app
 spec:
   replicas: 3
   strategy:
     type: Recreate
+  selector:
+    matchLabels:
+      app: demo-app
   template:
     metadata:
        labels:
