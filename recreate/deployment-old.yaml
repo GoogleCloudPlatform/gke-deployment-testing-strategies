@@ -19,7 +19,7 @@ spec:
         app: demo-app
     spec:
       containers:
-      - image: gcr.io/cloud-solutions-images/app:current
+      - image: gcr.io/{{YOUR_PROJECT_ID}}/app:current
         name: app
         ports:
         - containerPort: 8080
